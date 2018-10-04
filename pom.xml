@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.thinkgem.jeesite</groupId>
-	<artifactId>nssq</artifactId>
+	<artifactId>tp</artifactId>
 	<version>1.2.7</version>
 	<packaging>war</packaging>
 	
@@ -83,7 +83,6 @@
 	
 	<!-- 依赖项定义 -->
 	<dependencies>
-	
 		<!-- SPRING begin -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -186,7 +185,11 @@
 		     <artifactId>druid</artifactId>
 		     <version>${druid.version}</version>
 		</dependency>
-		
+		<dependency>
+		    <groupId>org.apache.httpcomponents</groupId>
+		    <artifactId>httpclient</artifactId>
+		    <version>${httpclient-version}</version>
+		</dependency>
 		<!-- jdbc driver -->
 		<dependency>
 			<groupId>mysql</groupId>
